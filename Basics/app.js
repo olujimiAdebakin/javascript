@@ -35,8 +35,59 @@
 // console.log("My name is", name);
 // console.log("I want to become a", whatDoYouWannaBecomeInYourLife);
 // console.log("i am a ", gender);
-// console.log("My twitter handle is", twitterHandle);q
+// console.log("My twitter handle is", twitterHandle);
 
+// let person = "baliqis";
+// console.log(person);
+
+// let var const
+
+// let age = 10;
+// age = 20;
+// console.log(age);
+
+// const person = "male";
+// console.log(person);
+
+// let gender = "female";
+// gender = "male";
+// console.log(gender)
+
+// const gender = "female";
+// gender = "male";
+// console.log(gender)
+
+// var gender = "female";
+// gender = "gay";
+// console.log(gender)
+
+// var gender = "big head"
+// console.log(gender)
+
+// var name = "tolu";
+// name = "jaiye";
+// console.log(name);
+
+// var name = "lade";
+// console.log(name);
+
+// var name = "kunle";
+// console.log(name)
+
+
+// const
+
+// const school = "Devcent";
+// // school = "Sql";
+// console.log(school)
+
+// Declare a variable name *(name) & store your name;
+// declare a variable age (age) & store age
+// declare a variable gender (gender) & store your gender
+// declare a variable occupation (occupation) & store your occupation
+
+// console.log all
+ 
  
 
 // primitives types
@@ -77,6 +128,42 @@
 
 // console.log("counter", counter)
 
+console.log(2+1);
+
+// let num = 10;
+// console.log(num);
+// let a = 10;
+// let b = 10;
+// let sum = a + b;
+// console.log(sum);
+
+// let a = 30;
+// let b = 5;
+// let divide = a / b;
+// console.log(divide)
+
+// let a  = 5;
+// let b = 6;
+// let multiply = a * b;
+// console.log(multiply);
+
+// let counter = 20;
+
+// counter ++;
+// counter ++;
+// counter ++;
+// counter ++;
+// counter ++;
+// console.log(counter)
+
+// let Decreament = 20;
+
+// Decreament--;
+// Decreament --;
+// Decreament --;
+// Decreament --;
+// Decreament --;
+// console.log(Decreament);
 
 
 // task
@@ -133,6 +220,26 @@
 //  console.log("Is Python a programming language?", isPythonProgrammingLanguage);
 // console.log("My favorite number is:", favNumber);
 //  console.log(favNumber - undefined);
+
+
+// let num = 10 > 50;
+// console.log(num)
+
+// let num = 10 < 60;
+// console.log(num)
+
+// let num = 20 == 20;
+// console.log(num)
+
+// let num = 20 === 20;
+// console.log(num)
+
+// let num = 20 != 5;
+// console.log(num)
+
+// let num = 20 !== "twenty";
+// console.log(num)
+
 
 
 

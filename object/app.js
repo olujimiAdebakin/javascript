@@ -1,23 +1,62 @@
 // 
 
 
-const car = {
-    name: "RangeRover",
-    model: 2026,
-    color: "white&balck",
-    price: "$100k",
-}
-console.log(car.color)
+// const car = {
+//     name: "RangeRover",
+//     model: 2026,
+//     color: "white&balck",
+//     price: "$100k",
+// }
+// console.log(car.color)
 
-const music = {
-    artist: "burna boy",
-    title: 23,
-    genre: "afro-fusion",
-    year: 2022,
-    AlbumTitle: "Twice As Tall",
-}
+// const music = {
+//     artist: "burna boy",
+//     title: 23,
+//     genre: "afro-fusion",
+//     year: 2022,
+//     AlbumTitle: "Twice As Tall",
+// }
 
-console.log(music)
+// console.log(music)
+
+// const currency = {
+//     name: "Dollar",
+//     symbol: "$",
+//     code: "USD",
+//     Value: "1600",
+//     country: "United states",
+// }
+// console.log(currency)
+// console.log(currency.symbol)
+// console.log(currency.name);
+// // Object.freeze(currency); //does not allow modification
+// currency.name = "Naira"
+// currency.symbol = "₦",
+//     currency.code = "NGN",
+//     currency.value = "Nil",
+//     currency.country = "Nigeria",
+//     currency.president= "Tinubu",
+    
+//     // console.log(currency);
+//     delete currency.president;
+// console.log(currency)
+// console.log("president" in currency);
+// console.log(Object.keys(currency))
+// console.log(Object.values(currency));
+
+// const person = {
+//     name: "lade",
+//     age: 40,
+//     occupation: "CBEX",
+// }
+
+// console.log(person);
+// Object.seal(person); //can modify existing values but cant add new
+// person.age += 10,
+// console.log(person);
+// person.status = "married",
+// console.log(person);
+// console.log(Object.isSealed(person));
 
 // const product = {
 //   name: "basketball",
@@ -32,50 +71,66 @@ console.log(music)
 // console.log(product);
 
 
-const product = {
-    name: "basketball", 
-    price: 10000,
-    delivery_time: "10 days",
-}
-console.log(product)
-product.price += 7000,
-    console.log(product);
+// const product = {
+//     name: "basketball", 
+//     price: 10000,
+//     delivery_time: "10 days",
+// }
+// console.log(product)
+// product.price += 7000,
+//     console.log(product);
 
-product.name = "football",
-    product.delivery_time = "20 days",
-    console.log(product);
+// product.name = "football",
+//     product.delivery_time = "20 days",
+//     console.log(product);
 
 
-const laptop = {
-    name: "macbook", 
-    model: "pro 2022",
-    processor: "2.6 GHz",
-    memory: "16GB",
-    graphics: "Intel Iris Plus Graphics",
-    price: 10000,
-    delivery_time: "20 days",
-}
+// const laptop = {
+//     name: "macbook", 
+//     model: "pro 2022",
+//     processor: "2.6 GHz",
+//     memory: "16GB",
+//     graphics: "Intel Iris Plus Graphics",
+//     price: 10000,
+//     delivery_time: "20 days",
+// }
 
-console.log(laptop);
-laptop.name = "dell";
-console.log(laptop)
-delete laptop.processor;
-console.log(laptop)
-laptop["warranty"] = "2 years";
-console.log(laptop);
+// console.log(laptop);
+// laptop.name = "dell";
+// console.log(laptop)
+// delete laptop.processor;
+// console.log(laptop)
+// laptop["warranty"] = "2 years";
+// console.log(laptop);
 
-const person = {
-    name: "olujimi",
-    age: 20,
-    gender: "Lgbtq",
-    hobbies: ["Football", "Music", "cheating", "Reading", "politics", "Ass"]
-}
-console.log(person);
-person.age += 5;
-console.log(person);
-person.hobbies.unshift("pussy");
-person.hobbies.pop();
-console.log(person);
+// const person = {
+//     name: "olujimi",
+//     age: 20,
+//     gender: "Lgbtq",
+//     hobbies: ["Football", "Music", "cheating", "Reading", "politics", "Ass"]
+// }
+// console.log(person);
+// person.age += 5;
+// console.log(person);
+// person.hobbies.unshift("pussy");
+// person.hobbies.pop();
+// console.log(person);
+
+// const country = {
+//     name: "Nigeria",
+//     age: 67,
+//     currency: "Naira",
+//     Government: "democracy",
+//     President: "Tinubu",
+//     hobbies: ["Thuggery", "corruption", "Looting", "Going to france", "Private jet"]
+// }
+// // console.log(country);
+// country.age -= 5;
+// country.hobbies.unshift("Yatch");
+// country.hobbies.push("Bulion van");
+// // console.log(country);
+// console.log(Object.keys(country.hobbies))//returns the keys in number 0 1 2 3 4 5 etc
+// console.log(Object.values(country.hobbies))//returns the value in array format
 
 // this is a wrong approach
 // const bankAccount = {
@@ -93,17 +148,31 @@ console.log(person);
 
 
 //concactinating with template strings
-const bankAccount = {
-  accountHolder: "Adebakin Olujimi",
-  accountNumber: "1234567890",
-  balance: 1000000,
-  accountType: "savings",
-};
+// const bankAccount = {
+//   accountHolder: "Adebakin Olujimi",
+//   accountNumber: "1234567890",
+//   balance: 1000000,
+//   accountType: "savings",
+// };
 
 
-bankAccount.details = `${bankAccount.accountHolder} has ${bankAccount.accountNumber} ${bankAccount.balance} ${bankAccount.accountType} in their account`;
+// bankAccount.details = `${bankAccount.accountHolder} has ${bankAccount.accountNumber} ${bankAccount.balance} ${bankAccount.accountType} in their account`;
 
-console.log(bankAccount.details);
+// console.log(bankAccount.details);
+
+// const coin = {
+//     name: "PX",
+//     chain: "EVM",
+//     price: "1USDT",
+//     supply: "Billion",
+//     creator: "peerX",
+// }
+
+// coin.details = `${coin.name} is a token launched on the ${coin.chain} chain, the total supply is a ${coin.supply} supply and the price is ${coin.price} this coin belongs to ${coin.creator}`
+// console.log(coin.details)
+
+
+
 
 // const name = {
 //     firstname: "Adebakin",
@@ -117,22 +186,46 @@ console.log(bankAccount.details);
 
 
 //concactinating with string
-const name = {
-    firstName: 'Adebakin',
-    lastName : 'Olujimi',
-    age : 30,
+// const name = {
+//     firstName: 'Adebakin',
+//     lastName : 'Olujimi',
+//     age : 30,
+// }
+
+//  const Details = "Hello, my name is"  +  name.firstName + " " + name.lastName + " " + "and i am" + " " + name.age + "years old";
+// console.log(Details);
+
+const Network = {
+    name: "Glo",
+    Owner: "Adenuga",
+    Hq: "Lagos",
 }
 
- const Details = "Hello, my name is"  +  name.firstName + " " + name.lastName + " " + "and i am" + " " + name.age + "years old";
+const Details = "The owner of " + Network.name + " " + " is " + Network.Owner + " " + " And there headquarter is located at" + " " + Network.Hq;
 console.log(Details);
 
 // with spread operator
-const obj1 = {
- x: 10,
- m: 12 };
-const obj2 = { 
-y: 11, 
-z: 13 };
+// const obj1 = {
+//  x: 10,
+//  m: 12 };
+// const obj2 = {
+// y: 11,
+// z: 13 };
 
-const combinedObj = { ...obj1, ...obj2 };//with spread operator
-console.log(combinedObj);
+// const combinedObj = { ...obj1, ...obj2 };//with spread operator
+// console.log(combinedObj);
+
+const name = {
+    x: "tolu",
+    y: "Tayo"
+}
+
+const age = {
+    m: 30,
+    n: 24,
+};
+
+const nameAge = { ...name, ...age};
+// console.log(nameAge);
+console.log(Object.values(nameAge));
+console.log(Object.keys(nameAge));
