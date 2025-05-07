@@ -16,13 +16,37 @@
 // } else {
 //     // code runs if condition is false
 // }
-let age = 18;
 
-if (age < 18){
-    console.log("you are eligible to vote")
+
+// const ageToMarry = 40;
+
+// if (ageToMarry < 32) {
+//     console.log("You are to young to get married");
+// } else if (ageToMarry == 32) {
+//     console.log("You are of age to get married");
+// } else if (ageToMarry === 32){
+//     console.log("You are ready to get married");
+// } else {
+//     console.log("you are too old to marry")
+// }
+
+
+const symptoms = prompt("Enter your symptoms");
+
+if (symptoms === "cold") {
+    alert("You have Malaria")
+} else if (symptoms === "headache") {
+    alert("Take panadol");
+} else if (symptoms === "cough & cold") {
+    alert("Ypu have flu");
+} else if (symptoms === "vomiting") {
+    alert("You are pregnant");
+} else if (symptoms === "back pain") {
+    alert("Take a body pain")
 } else {
-    console.log("you are not eligible to vote")
+    alert("you have spiritual problems")
 }
+
 
 
 // const ageOfConsent = 30;
