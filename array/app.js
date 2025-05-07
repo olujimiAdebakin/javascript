@@ -27,15 +27,44 @@
 // let teenager = agee.filter(agee => agee <= 18)
 // console.log(teenager)
 
-let boys = ['Tolu', 'Jide', 'Bayo', 'Tomiwa'];
-let girls = ['bukky', 'Tawa', 'Iyanu'];
-let Gender = boys.concat(girls)
+// let boys = ['Tolu', 'Jide', 'Bayo', 'Tomiwa'];
+// let girls = ['bukky', 'Tawa', 'Iyanu'];
+// let Gender = boys.concat(girls)
 
-console.log(Gender);
+// console.log(Gender);
+
+// const boys = ['Jide', 'Bayo', 'Tola'];
+// boys.push("Juwon"); // to the last element
+// boys.unshift("bola") //adding to the first element
+// console.log(boys);
+
+// boys.pop();
+// console.log(boys); //removes last element
+
+// boys.shift();
+// console.log(boys); //removes first element
+
+// const evenNumbers = [2, 4, 6, 8, 10];
+// const oddNumbers = [1, 3, 5, 7, 9];
+// const num = oddNumbers.concat(evenNumbers);
+// console.log(num);
+
+// let num = [12, 13, 14, 15, 16, 17, 18, 19, 20];
+// let lowNumber = num.filter(num => num < 13);
+// console.log(lowNumber);
+
+// let num = [12, 13, 14, 15, 17, 16, 18, 19, 20];
+// let lowNumber = num.find(num => num < 15);
+// console.log(lowNumber);
+
+
 
 // let age = [20, 30, 23, 19, 17, 16, 18];
 // let teenager = age.filter(age => age < 18);
 // console.log(teenager)
+
+// let colors = ["red", "blue", "purple", "brown"];
+// console.log(colors.includes("blue")) //return true
 
 
 // let age = [20, 50, 60, 70, 80, 100];
@@ -72,6 +101,9 @@ console.log(Gender);
 // const frontend = ["Lanre", "Lade", "Bolu", "Adeola",];
 // console.log(frontend.includes("Dele"));
 
+// const num = [5, 4, 3, 2, 1];
+// num.reverse();
+// console.log(num);
 
 
 // map() – Creates a new array by transforming each element

@@ -11,6 +11,20 @@
 //     console.log("not running")
 // }
 
+// if (condition){
+//     // if true this runs
+// } else {
+//     // code runs if condition is false
+// }
+let age = 18;
+
+if (age < 18){
+    console.log("you are eligible to vote")
+} else {
+    console.log("you are not eligible to vote")
+}
+
+
 // const ageOfConsent = 30;
 
 // if (ageOfConsent >= 30) {

@@ -1,4 +1,4 @@
-// 
+//
 
 
 // const car = {
@@ -9,6 +9,8 @@
 // }
 // console.log(car.color)
 
+
+
 // const music = {
 //     artist: "burna boy",
 //     title: 23,
@@ -18,6 +20,28 @@
 // }
 
 // console.log(music)
+
+// const person = {
+//     name: "Tolu",
+//     Gender: "She",
+//     Age: 50,
+//     Occupation: "Os",
+//     Country: "Cameroon",
+//     City: "Buea",
+//     Religion: "Traditionalist",
+//     Sex: "Lesbian",
+// }
+// console.log(person);
+// // Object.freeze(person)
+// Object.seal(person)
+// person.Gender = "He";
+// person.Club = "Chelsea";
+// person.height = "5ft";
+// person.weight = "500kg";
+// person.complexion = "Chocolate";
+// console.log(person);
+// delete person.Occupation;
+// console.log(person);
 
 // const currency = {
 //     name: "Dollar",
@@ -70,9 +94,43 @@
 // product["delivery-time"] = "3 days";
 // console.log(product);
 
+// const product = {
+//     name: "garri",
+//     price: 500,
+// }
+// console.log(product)
+// product["delivery-time"] = "5 days";
+// console.log(product);
+
+
+// const person = {
+//     name: "lekan",
+//     occupation: "olosho",
+//     gender: "confused",
+//     age: 50,
+//     country: "congo",
+//     city: "kinshasha",
+//     hobbies: ["womanizing", "reading", "salvage", "coding"],
+// }
+
+
+// person.hobbies.unshift("cheating");
+// person.hobbies.push("Cassanova");
+// person.hobbies.pop()
+// person.hobbies.shift();
+// console.log(Object.values(person));
+
+// person.age -= 30;
+// console.log(person);
+// Object.seal(person);
+// person.status = "Gay"
+// person.gender = "female";
+// console.log(person);
+
+
 
 // const product = {
-//     name: "basketball", 
+//     name: "basketball",
 //     price: 10000,
 //     delivery_time: "10 days",
 // }
@@ -86,7 +144,7 @@
 
 
 // const laptop = {
-//     name: "macbook", 
+//     name: "macbook",
 //     model: "pro 2022",
 //     processor: "2.6 GHz",
 //     memory: "16GB",
@@ -132,6 +190,7 @@
 // console.log(Object.keys(country.hobbies))//returns the keys in number 0 1 2 3 4 5 etc
 // console.log(Object.values(country.hobbies))//returns the value in array format
 
+
 // this is a wrong approach
 // const bankAccount = {
 //     accountHolder: "Adebakin Olujimi",
@@ -164,12 +223,28 @@
 //     name: "PX",
 //     chain: "EVM",
 //     price: "1USDT",
-//     supply: "Billion",
+//     supply: "10 Billion",
 //     creator: "peerX",
 // }
 
-// coin.details = `${coin.name} is a token launched on the ${coin.chain} chain, the total supply is a ${coin.supply} supply and the price is ${coin.price} this coin belongs to ${coin.creator}`
+// coin.details = `${coin.name} is a token launched on the ${coin.chain} chain, the total supply is ${coin.supply} supply and the price is ${coin.price} this coin belongs to ${coin.creator}`
 // console.log(coin.details)
+
+// const country = {
+//     president: "Emilokan",
+//     Name: "Nigeria",
+//     Population: "200m",
+//     Capital: "Abuja",
+//     Language: "English",
+//     Currency: "Naira",
+//     Religion: "Traditional",
+//     State: "Ogun-State",
+//     Governor: "Eleyi of Ogun state",
+//     hobbies: ["Thuggery", "corruption", "Looting", "Going to france", "Private jet", "Partying"],
+// }
+
+// const about = `${country.Name} is a country with over ${country.Population} population, its capital is ${country.Capital} and its official language is ${country.Language} the poor populace are the ones who spend the official currency which is ${country.Currency} most nigerians are ${country.Religion} worshippers in disguise they only go to church and mosque for fun, One of the states in ${country.Name} is ${country.State} and the governor is called ${country.Governor}. ${country.Name} is notorious for ${country.hobbies.join(', ')}.`
+// console.log(about);
 
 
 
@@ -189,20 +264,20 @@
 // const name = {
 //     firstName: 'Adebakin',
 //     lastName : 'Olujimi',
-//     age : 30,
+//     age : 300,
 // }
 
 //  const Details = "Hello, my name is"  +  name.firstName + " " + name.lastName + " " + "and i am" + " " + name.age + "years old";
 // console.log(Details);
 
-const Network = {
-    name: "Glo",
-    Owner: "Adenuga",
-    Hq: "Lagos",
-}
+// const Network = {
+//     name: "Glo",
+//     Owner: "Adenuga",
+//     Hq: "Lagos",
+// }
 
-const Details = "The owner of " + Network.name + " " + " is " + Network.Owner + " " + " And there headquarter is located at" + " " + Network.Hq;
-console.log(Details);
+// const Details = "The owner of " + Network.name + " " + " is " + Network.Owner + " " + " And there headquarter is located at" + " " + Network.Hq;
+// console.log(Details);
 
 // with spread operator
 // const obj1 = {
@@ -215,17 +290,31 @@ console.log(Details);
 // const combinedObj = { ...obj1, ...obj2 };//with spread operator
 // console.log(combinedObj);
 
-const name = {
-    x: "tolu",
-    y: "Tayo"
-}
+// const name = {
+//     x: "tolu",
+//     y: "Tayo"
+// }
 
-const age = {
-    m: 30,
-    n: 24,
-};
+// const age = {
+//     m: 30,
+//     n: 24,
+// };
 
-const nameAge = { ...name, ...age};
-// console.log(nameAge);
-console.log(Object.values(nameAge));
-console.log(Object.keys(nameAge));
+// const nameAge = { ...name, ...age};
+// // console.log(nameAge);
+// console.log(Object.values(nameAge));
+// console.log(Object.keys(nameAge));
+
+// const school = {
+//     schoolName: "funnab",
+//     year: 1990,
+// }
+
+// const person = {
+//     name: "lola",
+//     department: "Social science",
+// }
+
+// const schoolPerson = {...school, ...person}
+// console.log(schoolPerson);
+// console.log(Object.values(schoolPerson));

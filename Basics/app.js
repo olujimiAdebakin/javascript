@@ -128,7 +128,7 @@
 
 // console.log("counter", counter)
 
-console.log(2+1);
+// console.log(2+1);
 
 // let num = 10;
 // console.log(num);
@@ -196,7 +196,46 @@ console.log(2+1);
 //     ** secondFavNum
 // )
 
+// let x = 30;
+// x = 20;
+// console.log(x * 10);
+// console.log("John" + " " + "Doe");
 
+// let name = "lade"
+
+// let firstName = "Adebakin"
+
+const shoe = 1000;
+const bag = 2000;
+let totalPrice = shoe + bag;
+totalPrice = 5000;
+console.log(totalPrice);
+
+// let sick = 10;
+// let belle = 5;
+// let baliqis = sick + belle;
+// console.log(baliqis)
+
+let num = 10 < 20;
+console.log(num);
+
+// let a = 5;
+// let b = 50;
+// let x = a > b;
+// console.log(x)
+
+// let a = 50;
+// let b = 50;
+// let c = a === b;
+// console.log(c);
+
+// let a = 50;
+// let b = 50;
+// let c = b !== a;
+// console.log(c);
+
+let name = null;
+console.log(name);
 
 
 // 2 boolean
@@ -240,8 +279,11 @@ console.log(2+1);
 // let num = 20 !== "twenty";
 // console.log(num)
 
+// let num = 20 >= 20;
+// console.log(num)
 
-
+// let num = 20 <= 20;
+// console.log(num)
 
 
 
