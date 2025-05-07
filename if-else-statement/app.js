@@ -31,21 +31,21 @@
 // }
 
 
-const symptoms = prompt("Enter your symptoms");
+// const symptoms = prompt("Enter your symptoms");
 
-if (symptoms === "cold") {
-    alert("You have Malaria")
-} else if (symptoms === "headache") {
-    alert("Take panadol");
-} else if (symptoms === "cough & cold") {
-    alert("Ypu have flu");
-} else if (symptoms === "vomiting") {
-    alert("You are pregnant");
-} else if (symptoms === "back pain") {
-    alert("Take a body pain")
-} else {
-    alert("you have spiritual problems")
-}
+// if (symptoms === "cold") {
+//     alert("You have Malaria")
+// } else if (symptoms === "headache") {
+//     alert("Take panadol");
+// } else if (symptoms === "cough & cold") {
+//     alert("Ypu have flu");
+// } else if (symptoms === "vomiting") {
+//     alert("You are pregnant");
+// } else if (symptoms === "back pain") {
+//     alert("Take a body pain")
+// } else {
+//     alert("you have spiritual problems")
+// }
 
 
 
@@ -166,6 +166,22 @@ if (symptoms === "cold") {
 // }
 
 // const color = prompt("Enter a color");
+
+// const food = prompt("Enter a food")
+
+// switch (food) {
+//     case "rice":
+//         alert("breakfast");
+//         break;
+//     case "yam":
+//         alert("launch");
+//         break;
+//     case "eba":
+//         alert("dinner");
+//         break;
+//     default:
+//         alert("last super");
+// }
 
 // switch (color.toLowerCase()) {
 //     case "red":
