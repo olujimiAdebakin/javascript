@@ -10,3 +10,27 @@
 // }
 
 // document.write("You are now over 10");
+
+// while loop
+// while loop run as long as the condition is true
+
+// let count = 20;
+
+// while (count >= 1) {
+//   console.log("Countdown:", count);
+//   count--;
+// }
+
+// let age = 18;
+// while (age >= 1) {
+//     console.log("you are an adult", age);
+//     age--;
+// }
+
+let age = 10;
+
+while (age < 18) {
+    console.log("you are a teenager", age);
+    age++;
+    console.log("you are now an adult", age);
+}

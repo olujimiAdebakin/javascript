@@ -196,6 +196,8 @@
 //     default:
 //         alert("Jam yourself");
 // }
+
+
 // shortcut for if-else statements
 
 // ternary Operator ? :
@@ -206,6 +208,15 @@
 // Ternary Operator ? :
 // const result = true ? 'truthy' : 'falsy'
 // console.log(result)
+
+// const a = 3;
+// const b = a >= 10 ? "true" : "false";
+// console.log(b);
+
+
+// let age = 15;
+// let ageToVote = age >= 18 ? "eligible to vote" : "not eligible to vote";
+// console.log(ageToVote);
 
 // let age = 20;
 // let message = age >= 20 ? 'eligible to vote' : 'not eligible to vote';
@@ -230,6 +241,10 @@
 // const agee = 25;
 // const isAdult = agee >= 21 && name !== '';
 // console.log(isAdult)
+
+const a = false;
+const b = a && "join";
+console.log(b);
 
 // false && console.log('hello'
 // );

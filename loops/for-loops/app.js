@@ -3,7 +3,7 @@
 
 // for (age = 5; age < 10; age++){
 //     console.log("your age is less than 10");
-// } 
+// }
 
 // document.write("you are now over 10")
 
@@ -27,7 +27,21 @@
 //     // code block
 // }
 
+// for (let y = 0; y <= 10; y++){
+//     console.log(y);
+// }
 
+// const cars = ["nissan", "volvo", "peugot", "toyota", "bmw"];
+
+// for (let i = 0; i < cars.length; i++){
+//     console.log(cars[i]);
+// }
+
+// const foods = ["rice", "yam", "amala", "noodles", "beans", "semo", "eba"];
+
+// for (let u = 3; u < foods.length; u++){
+//     console.log(foods[u]);
+// }
 
 
 // for (let i = 1; i <= 5; i++) {
@@ -87,3 +101,5 @@
 // for (let key in object) {
 //     console.log(key, object[key]);
 // }
+
+
