@@ -2,22 +2,35 @@
 // javascript can manipulate the Dom to dyamically update content , styles and structure.
 
 // Returns a reference to the first object with the specified value of the ID attribute.
-const element_by_id = document.getElementById("header");
+// const element_by_id = document.getElementById("header");
 
-console.log("This is my element", element_by_id.innerHTML);
+// console.log("This is my element", element_by_id.innerHTML);
 
-element_by_id.innerHTML = "i love rust but it is very difficult"
-element_by_id.style.color = "green";
-element_by_id.style.backgroundColor = "black"
-element_by_id.style.fontSize = "100px";
+// element_by_id.innerHTML = "i love rust but it is very difficult"
+// element_by_id.style.color = "green";
+// element_by_id.style.backgroundColor = "black"
+// element_by_id.style.fontSize = "100px";
 
+// const element_by_id = document.getElementById("header");
+// console.log("This is my header", element_by_id.innerHTML);
+// element_by_id.innerHTML = "hello baliqis";
+// console.log("This is my new header", element_by_id.innerHTML)
+// element_by_id.style.fontSize = "50px";
+// element_by_id.style.color = "red";
+// element_by_id.style.textAlign = "center";
+
+function changeText() {
+    const para = document.getElementById("paragraph");
+    para.innerHTML = "I love solidity";
+    
+}
 
 // const my_lov = document.getElementById("paragraph");
 // console.log(my_lov);
 
 
-const text = document.getElementById('paragraph')
-console.log("This is my paragraph",text)
+// const text = document.getElementById('paragraph')
+// console.log("This is my paragraph",text)
 
 
 // Returns a HTMLCollection of the elements in the object on which the method was invoked (a document or an element) that have all the classes given by classNames. The classNames argument is interpreted as a space-separated list of classes.
@@ -30,29 +43,29 @@ console.log("This is my paragraph",text)
 // const classs = document.getElementsByClassName("greet");
 // console.log(classs)
 
-const allClass = document.getElementsByClassName("item");
-console.log(allClass)
+// const allClass = document.getElementsByClassName("item");
+// console.log(allClass)
 
 
 // Retrieves a collection of objects based on the specified element name.
-const allElements = document.getElementsByTagName("p");
-const allTag = document.getElementsByTagName("li");
-console.log(allTag);
+// const allElements = document.getElementsByTagName("p");
+// const allTag = document.getElementsByTagName("li");
+// console.log(allTag);
 
 
 // querySelector returns the first element that matches a specified CSS selector.
-const select = document.querySelector('#header')
-console.log(select);
+// const select = document.querySelector('#header')
+// console.log(select);
 
 
-const selectt = document.querySelector('li.item1')
-console.log(selectt);
+// const selectt = document.querySelector('li.item1')
+// console.log(selectt);
 
 
 
 // querySelectorAll returns a NodeList which is a live collection of elements that matches a specified CSS selector.
-const selectAll = document.querySelectorAll('.item');
-console.log(selectAll);
+// const selectAll = document.querySelectorAll('.item');
+// console.log(selectAll);
 
 
 

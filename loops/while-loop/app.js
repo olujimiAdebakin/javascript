@@ -27,10 +27,10 @@
 //     age--;
 // }
 
-let age = 10;
+// let age = 10;
 
-while (age < 18) {
-    console.log("you are a teenager", age);
-    age++;
-    console.log("you are now an adult", age);
-}
+// while (age < 18) {
+//     console.log("you are a teenager", age);
+//     age++;
+//     console.log("you are now an adult", age);
+// }
